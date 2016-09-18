@@ -1,0 +1,12 @@
+@media (max-width: 1105px) {
+	.headerwrap {
+		display: flex;
+		justify-content: initial;
+	}
+	.section-flexer {
+		display: none;
+		.submit-button {
+			display: none;
+		}
+	}
+}

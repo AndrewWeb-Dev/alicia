@@ -1,0 +1,106 @@
+footer {
+	background-color: #423e3f;
+	.footerwrap {
+		display: flex;
+		h4 {
+			font-size: 23px;
+			font-weight: 400;
+			text-transform: uppercase;
+			color: #FFFFFF;
+		}
+	}
+	
+	.flexitem {
+		max-width: 33.33%;
+		margin: 100px 15px;
+	}
+
+	.footer-text {
+		font-size: 14px;
+		font-family: 'Hind';
+		font-weight: 300;;
+		color: #bab9b9;
+		margin: -10px 0px 5px 0px;
+		padding-bottom: 5px;
+		line-height: 2;
+	}
+
+	.twitter-feed p {
+		font-family: 'Hind';
+		font-weight: 400;
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 1.75;;
+		margin: 0;
+	}
+
+	.feed-item {
+		margin-bottom: 15px;
+		p {
+			color: #cccccc;
+		}
+		span {
+			color: #bc762c;
+		}
+		.time {
+			color: #676163;
+		}
+	}
+
+	.flicker-feed {
+		@extend .flexer-normal;
+		flex-wrap: wrap;
+		.flicker-item {
+			width: 113px;
+			height:100px;
+			background-color: #888586;
+			margin: 5px;
+		}
+	}
+
+
+
+	.copyright {
+		background-color: #252525;
+		padding: 0 15px;
+		border-bottom-width: 3px;
+		border-bottom-style: solid;
+		-webkit-border-bottom-image: 
+		     -webkit-gradient(linear, 0 0, 0 100%, from(#323232), to(#2d2d2d)) 1 100%;
+		-webkit-border-bottom-image: 
+		     -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+	    -moz-border-bottom-image:
+		     -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;    
+	    -o-border-bottom-image:
+		     -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+	    border-bottom-image:
+		     linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+		border-top: solid 1px #5b5a5a;
+
+		.copyrightwrap {
+			@extend .flexer-space;
+			ul {
+				margin-right: 65px;
+				list-style-type: none;
+				li {
+					display: inline-block;
+					margin: 0px 10px;
+					color: #666666;
+					font-size: 20px;
+				}
+			}
+		}
+		p {
+			color: #9f9f9f;
+			font-size: 12px;
+			margin: auto 0;
+		}
+	}
+}
+
+.logo-container .alicia-logo p {
+	color: #FFFFFF;
+}
+
+
+
